@@ -24,7 +24,6 @@ function InfoSection({
   description,
   buttonLabel,
   buttonLink,
-  isbtn,
   img,
   alt,
   imgStart,
@@ -40,11 +39,11 @@ function InfoSection({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                isBtn?(<a target="_blank" href={buttonLink}>
+                <a target="_blank" href={buttonLink}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
-                </a>): 
+                </a>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>

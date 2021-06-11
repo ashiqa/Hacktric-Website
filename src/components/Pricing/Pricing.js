@@ -74,7 +74,7 @@ function Pricing() {
                 <PricingCardCost>Companies</PricingCardCost>
                 <PricingCardLength>Technical & Non-technical</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>CTFs are apt way to </PricingCardFeature>
+                  <PricingCardFeature>CTFs are an apt way to </PricingCardFeature>
                   <PricingCardFeature> scrutinize & hire security </PricingCardFeature>
                   <PricingCardFeature>professionals. Safeguard  </PricingCardFeature>
                   <PricingCardFeature>your business with us. </PricingCardFeature>
