@@ -33,9 +33,9 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            CYBORG
+            HACKTRIC
           </SocialLogo>
-          <WebsiteRights>CYBORG © 2021</WebsiteRights>
+          <WebsiteRights>HACKTRIC © 2021</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='//www.facebook.com/CybSecNITW/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
