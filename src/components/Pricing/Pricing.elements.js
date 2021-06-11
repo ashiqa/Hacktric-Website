@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import styled from 'styled-components';
 
 export const PricingSection = styled.div`
@@ -43,7 +43,7 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
+export const PricingCard = styled.div`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
@@ -107,5 +107,6 @@ export const PricingCardFeatures = styled.ul`
 `;
 
 export const PricingCardFeature = styled.li`
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-size: 18px ;
 `;

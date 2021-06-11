@@ -9,8 +9,9 @@ export const homeObjOne = {
     description:
       'We help organisations & businesses hire the best talents in cyber security to protect them from cyberattacks. ',
     buttonLabel: 'Get Started',
+    buttonLink : 'https://9vva7ymmlqw.typeform.com/to/IeSqeJDo',
     imgStart: '',
-    img: require("./a.png"),
+    img: require("./mob.jpg").default,
     alt: 'ico',
     start: ''
   };
@@ -24,10 +25,11 @@ export const homeObjOne = {
     topLine: 'Easy & Hassle-free',
     headline: 'Why host CTF competition ?',
     description:
-      "CTF is a fun-gamified security competition designed to challenge the wits of participants . With the expertise of Cyborg team , conducting CTFs is just a thought away. We will manage everything for you . All you need to do is schedule the date of event with us in the form below ",
+      "CTF is a fun-gamified security competition designed to challenge the wits of participants . With the expertise of Cyborg team , conducting CTFs is just a thought away. We will manage everything for you . All you need to do is schedule the event with us ",
     buttonLabel: 'Book a CTF',
+    buttonLink : 'https://9vva7ymmlqw.typeform.com/to/IeSqeJDo',
     imgStart: '',
-    img: require('../../images/svg-2.svg'),
+    img: require('../../images/svg-2.svg').default,
     alt: 'Vault',
     start: ''
   };
@@ -44,8 +46,9 @@ export const homeObjOne = {
     description:
       "It is our immense pleasure to conduct 3 consecutive seasons of CTF in NIT , Warangal with grand success. ",
     buttonLabel: 'View Testimonial',
+    buttonLink : "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCybSecNITW%2Fposts%2F200018778017697",
     imgStart: 'start',
-    img: require('../../images/profile.jpg'),
+    img: require('../../images/pctf.JPG').default,
     alt: 'Vault',
     start: 'true'
   };

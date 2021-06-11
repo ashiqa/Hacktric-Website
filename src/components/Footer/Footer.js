@@ -3,19 +3,12 @@ import { Button } from '../../globalStyles';
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
 import {
   FooterContainer,
   FooterSubscription,
   FooterSubText,
-  FooterSubHeading,
-  Form,
-  FormInput,
-  FooterLinksContainer,
-  FooterLinksWrapper,
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
@@ -37,14 +30,12 @@ function Footer() {
         <FooterSubText>Ashiqa  & Manhi first started it out, with the passion to bridge the gap</FooterSubText>
         <FooterSubText> between need for cybersecurity and ground-reality in low hiring rates</FooterSubText>
         <FooterSubText>by introducing standardised and efficient assessment i.e. CTF .</FooterSubText>
-        <FooterSubText>We are thrilled to be part of the security industry</FooterSubText>
-        <FooterSubText> and hope to work with the larger aim of attracting students to cybersecurity. </FooterSubText>
       </FooterSubscription>
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>holakitty041@gmail.com</FooterLink>
-            <FooterLink to='/'>  Center for Innovation and Development, NITW, Warangal, Telangana 506004, India
-</FooterLink>
+            <FooterLink to='/'>rahmanashiqa@gmail.com manhipanwar01@gmail.com </FooterLink>
+            <a target="_blank"  style={{ color: '#FFF' }} href='https://goo.gl/maps/n27Pr9VXDZrhJhjQ8'>  Center for Innovation and Development, NITW, Warangal, Telangana 506004, India
+</a>
           </FooterLinkItems>
       <SocialMedia>
         <SocialMediaWrap>
@@ -54,26 +45,13 @@ function Footer() {
           </SocialLogo>
           <WebsiteRights>CYBORG © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='//www.facebook.com/CybSecNITW/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='//www.instagram.com/manhi_panwar/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink
-              href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
-              rel='noopener noreferrer'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-              <FaTwitter />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href='//www.linkedin.com/in/ashiqa-rahman-432a47192/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>

@@ -55,22 +55,17 @@ function Navbar() {
                   Home
                 </NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
-                </NavLinks>
-              </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
+                  <a target="_blank" href='https://9vva7ymmlqw.typeform.com/to/IeSqeJDo'>
                     <Button primary>HOST A CTF</Button>
-                  </NavBtnLink>
+                  </a>
                 ) : (
-                  <NavBtnLink to='/sign-up'>
+                  <a target="_blank" href='https://9vva7ymmlqw.typeform.com/to/IeSqeJDo'>
                     <Button onClick={closeMobileMenu} fontBig primary>
                     HOST A CTF
                     </Button>
-                  </NavBtnLink>
+                  </a>
                 )}
               </NavItemBtn>
             </NavMenu>

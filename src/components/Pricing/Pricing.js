@@ -1,9 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/gi';
 import { GiCrystalBars } from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -27,7 +25,7 @@ function Pricing() {
         <PricingWrapper>
           <PricingHeading>Our Services</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard >
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
@@ -41,10 +39,12 @@ function Pricing() {
                   <PricingCardFeature>by conducting CTFs</PricingCardFeature>
                   <PricingCardFeature>with us</PricingCardFeature>
                 </PricingCardFeatures>
+                <a href='https://9vva7ymmlqw.typeform.com/to/IeSqeJDo' target='_blank'>
                 <Button primary>BOOK CTF</Button>
+                </a>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard >
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
@@ -55,15 +55,17 @@ function Pricing() {
                 <PricingCardFeatures>
                   <PricingCardFeature></PricingCardFeature>
                   
-                  <PricingCardFeature>Organize CTFs </PricingCardFeature>
-                  <PricingCardFeature> with us to upgrade </PricingCardFeature>
-                  <PricingCardFeature>attendees' cybersecurity skills</PricingCardFeature>
+                  <PricingCardFeature>Organize CTFs with us </PricingCardFeature>
+                  <PricingCardFeature>  to upgrade attendees'  </PricingCardFeature>
+                  <PricingCardFeature>cybersecurity skills</PricingCardFeature>
                   <PricingCardFeature> to the next level</PricingCardFeature>
                 </PricingCardFeatures>
+                <a href='https://9vva7ymmlqw.typeform.com/to/IeSqeJDo' target='_blank'>
                 <Button primary>BOOK CTF</Button>
+                </a>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
@@ -72,12 +74,14 @@ function Pricing() {
                 <PricingCardCost>Companies</PricingCardCost>
                 <PricingCardLength>Technical & Non-technical</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>CTFs are ampt way to scrutinize </PricingCardFeature>
-                  <PricingCardFeature> & hire security professionals.</PricingCardFeature>
-                  <PricingCardFeature>Safeguard your business</PricingCardFeature>
-                  <PricingCardFeature>with us </PricingCardFeature>
+                  <PricingCardFeature>CTFs are ampt way to </PricingCardFeature>
+                  <PricingCardFeature> scrutinize & hire security .</PricingCardFeature>
+                  <PricingCardFeature>professionals . Safeguard  </PricingCardFeature>
+                  <PricingCardFeature>your business with us </PricingCardFeature>
                 </PricingCardFeatures>
+                <a href='https://9vva7ymmlqw.typeform.com/to/IeSqeJDo' target='_blank'>
                 <Button primary>BOOK CTF</Button>
+                </a>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
