@@ -1,11 +1,10 @@
 import React from 'react';
 import GlobalStyle from './globalStyles';
 import Home from './pages/HomePage/Home';
-import Footer from './components/Footer/Footer';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import { Navbar } from './components';
+import { Navbar,Footer } from './components';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/footer' component={Footer} />
       </Switch>
       <Footer />
     </Router>
