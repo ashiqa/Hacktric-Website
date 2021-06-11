@@ -7,8 +7,6 @@ import {
 } from 'react-icons/fa';
 import {
   FooterContainer,
-  FooterSubscription,
-  FooterSubText,
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
@@ -24,13 +22,7 @@ import {
 function Footer() {
   return (
     <FooterContainer>
-      <FooterSubscription>
-      <FooterLinkTitle>About Us</FooterLinkTitle>
-        <FooterSubText>Founded in 2020 , CybOrg has started from Innovation Garage Incubator in Telengana , India . </FooterSubText>
-        <FooterSubText>Ashiqa  & Manhi first started it out, with the passion to bridge the gap</FooterSubText>
-        <FooterSubText> between need for cybersecurity and ground-reality in low hiring rates</FooterSubText>
-        <FooterSubText>by introducing standardised and efficient assessment i.e. CTF .</FooterSubText>
-      </FooterSubscription>
+      
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
             <FooterLink to='/'>rahmanashiqa@gmail.com manhipanwar01@gmail.com </FooterLink>

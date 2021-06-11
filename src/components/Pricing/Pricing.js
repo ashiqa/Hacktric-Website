@@ -74,10 +74,10 @@ function Pricing() {
                 <PricingCardCost>Companies</PricingCardCost>
                 <PricingCardLength>Technical & Non-technical</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>CTFs are ampt way to </PricingCardFeature>
-                  <PricingCardFeature> scrutinize & hire security .</PricingCardFeature>
-                  <PricingCardFeature>professionals . Safeguard  </PricingCardFeature>
-                  <PricingCardFeature>your business with us </PricingCardFeature>
+                  <PricingCardFeature>CTFs are apt way to </PricingCardFeature>
+                  <PricingCardFeature> scrutinize & hire security </PricingCardFeature>
+                  <PricingCardFeature>professionals. Safeguard  </PricingCardFeature>
+                  <PricingCardFeature>your business with us. </PricingCardFeature>
                 </PricingCardFeatures>
                 <a href='https://9vva7ymmlqw.typeform.com/to/IeSqeJDo' target='_blank'>
                 <Button primary>BOOK CTF</Button>

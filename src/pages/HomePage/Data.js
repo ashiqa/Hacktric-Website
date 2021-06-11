@@ -12,7 +12,7 @@ export const homeObjOne = {
     buttonLink : 'https://9vva7ymmlqw.typeform.com/to/IeSqeJDo',
     imgStart: '',
     img: require("./mob.jpg").default,
-    alt: 'ico',
+    alt: 'mobile',
     start: ''
   };
   
@@ -30,7 +30,7 @@ export const homeObjOne = {
     buttonLink : 'https://9vva7ymmlqw.typeform.com/to/IeSqeJDo',
     imgStart: '',
     img: require('../../images/svg-2.svg').default,
-    alt: 'Vault',
+    alt: 'img',
     start: ''
   };
   
@@ -49,7 +49,22 @@ export const homeObjOne = {
     buttonLink : "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCybSecNITW%2Fposts%2F200018778017697",
     imgStart: 'start',
     img: require('../../images/pctf.JPG').default,
-    alt: 'Vault',
+    alt: 'Pctf',
+    start: 'true'
+  };
+  export const homeObjFour = {
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: '',
+    headline:
+      ' About Us ',
+    description:'Hacktric ,founded in 2020 , has its humble beginning in Innovation Garage Incubator, Telengana , India . Ashiqa  & Manhi first started it  with the passion to bridge the gap between cybersecurity demand and ground-reality of low hiring rates by introducing standardised and efficient assessment i.e. CTF .' ,
+    imgStart: 'start',
+    img: require('./about.jpg').default,
+    alt: 'about',
     start: 'true'
   };
   
