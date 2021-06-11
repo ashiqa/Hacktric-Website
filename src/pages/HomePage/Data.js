@@ -63,7 +63,7 @@ export const homeObjOne = {
       ' About Us ',
     description:'Hacktric ,founded in 2020 , has its humble beginning in Innovation Garage Incubator, Telengana , India . Ashiqa  & Manhi first started it  with the passion to bridge the gap between cybersecurity demand and ground-reality of low hiring rates by introducing standardised and efficient assessment i.e. CTF .' ,
     buttonLabel: 'Contact us',
-    buttonLink : '../../components/Footer/Footer.js',
+    buttonLink : '/Footer',
     imgStart: 'start',
     img: require('./about.jpg').default,
     alt: 'about',
