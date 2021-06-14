@@ -25,7 +25,7 @@ function Footer() {
       
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>rahmanashiqa@gmail.com manhipanwar01@gmail.com </FooterLink>
+            <FooterLink to='/'>hacktric0@gmail.com </FooterLink>
             <a target="_blank"  style={{ color: '#FFF' }} href='https://goo.gl/maps/n27Pr9VXDZrhJhjQ8'>  Center for Innovation and Development, NITW, Warangal, Telangana 506004, India
 </a>
           </FooterLinkItems>
